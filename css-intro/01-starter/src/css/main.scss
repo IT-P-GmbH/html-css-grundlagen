@@ -1,0 +1,27 @@
+@use 'reset';
+
+* {
+  outline: 2px solid skyblue;
+}
+
+html {
+  border: 5px solid tomato;
+}
+
+body {
+  border: 5px solid black;
+}
+
+.boxes {
+  --gap: 2rem;
+
+  display: flex;
+  gap: var(--gap);
+  background-color: bisque;
+
+  .box {
+    flex: 1 0 calc(50% - var(--gap));
+    background-color: coral;
+    padding: 1rem;
+  }
+}
