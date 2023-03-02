@@ -1,0 +1,57 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --spacing: 1.25rem;
+
+  --clr-margin: hsl(30, 88%, 79%);
+  --clr-border: hsl(44, 97%, 87%);
+  --clr-padding: hsl(102, 37%, 79%);
+  --clr-content: hsl(209, 59%, 76%);
+}
+
+// html {
+//   color-scheme: light dark;
+// }
+
+body {
+  min-height: 100vh;
+  min-height: 100dvh;
+  margin: 0;
+  font-family: system-ui;
+}
+
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+textarea,
+button,
+select {
+  font: inherit;
+}
+
+#app {
+  main {
+    padding: var(--spacing);
+  }
+
+  aside {
+    padding: var(--spacing);
+  }
+
+  @media screen and (min-width: 60em) {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: var(--spacing);
+    border: 5px solid red;
+  }
+}

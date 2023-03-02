@@ -1,0 +1,52 @@
+@use 'presets';
+
+// body {
+//   font-family: var(--font-family);
+//   font-weight: var(--font-weight);
+//   line-height: var(--line-height);
+//   font-size: 16px;
+//   background-color: var(--clr-bg);
+//   color: var(--clr-text);
+//   margin: 0;
+// }
+
+// .header {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+//   font-size: 0.875rem;
+
+//   border-bottom: 1px solid var(--clr-line);
+//   padding: var(--spacing--small) var(--spacing);
+
+//   .logo {
+//     width: 180px;
+//     height: auto;
+//   }
+// }
+
+// main {
+//   padding: var(--spacing);
+//   max-width: 800px;
+//   margin: var(--spacing) auto;
+// }
+
+// h1 {
+//   margin: 0 0 0.5em;
+// }
+
+.box-model {
+  position: relative;
+  $colors: 'margin', 'border', 'padding', 'content';
+
+  @each $color in $colors {
+    &__#{$color} {
+      // position: absolute;
+      background-color: var(--clr-#{$color});
+      padding: var(--spacing);
+    }
+  }
+
+  // &:hover,
+  // &:
+}

@@ -1,6 +1,6 @@
-# 01 Starter
+# 01 Starterertemplate
 
-> Diese Lektion ist Bestandteil des Seminars [CSS @intro](../README.md), dessen Inhalte du in linearer Folge bearbeiten solltest.
+> Dieses Kapitel ist Bestandteil des Seminars [CSS @intro](../README.md). Bitte erarbeitete dir die Kentnisse in linealer Reihenfolge.
 
 Die Browser formatieren HTML-Elemente out of the box mit Farben, Größen und Abständen. Diese Basisangaben variieren allerdings von Browser zu Browser. Um diese zurückzusetzen oder einen einheitlichen Startpunkt für die eigene Website zu finden, wurden sogenannte [CSS Resets](https://de.wikipedia.org/wiki/Reset-Stylesheet) ins Leben gerufen.
 
