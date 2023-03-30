@@ -1,10 +1,10 @@
 # HTML- und CSS- Grundlagenseminar
 
-Du lernst die Grundlagen von HTML und CSS/Sass unter Berücksichtigung neuer Spezifikationen und Browser-Implementation. Die erlernten Kenntnisse helfen dir auch, Fehler bei der Nutzung von Frameworks zu vermeiden oder einer spezifischen Anpassung an die Kundenwünsche gerecht zu werden.
+Du lernst hier die Grundlagen von HTML und CSS/Sass unter Berücksichtigung neuer Spezifikationen und Browser-Implementation. Die erlernten Kenntnisse helfen dir auch, Fehler bei der Nutzung von Frameworks zu vermeiden oder einer spezifischen Anpassung an die Kundenwünsche gerecht zu werden.
 
 ## Nutzung
 
-Dieses Seminar wird im [CoE Web durchgeführt](https://doku.it-p.de/display/KB/HTML-+und+CSS-+Grundlagenseminar+%7C+CoE+Web) und dort auch aufgezeichnet. Schaue dir diese dort an, um in Folge dessen ein Teilnahmezertifikat, sowie die Skill-Punkte zu erhalten.
+> Dieses Seminar wird bei [IT-P](https://www.it-p.de/) im CoE Web (Center of Excellence) durchgeführt und aufgezeichnet und steht allen IT-P-Mitarbeitern zur Verfügung. Mit diesem Repository kannst du die Inhalte aber in Eigenleistung erarbeiten. Wenn du Fragen oder Anmerkungen hast, hinterlasse uns hier bitte ein Issue-Ticket.
 
 Jedes Kapitel verfügt über ein eigenes Verzeichnis und einer README.md, die dir als Dokumentation und Aufgabenstellung dient. Lies dir zunächst aber bitte den Abschnitt [Installation](#Installation) durch, um zu erfahren, wie du mit den Kapiteln und den jeweiligen Code-Demos arbeiten kannst.
 
@@ -50,7 +50,7 @@ Wir verwenden in den Demos Node.js, [yarn](https://yarnpkg.com/) als Package Man
 3. Installiere yarn und kontrolliere die erfolgreiche Installation durch folgende Befehle (Eingabe bitte ohne `$`):
 
 ```shell
-$ sudo npm install -g yarn
+$ npm install -g yarn
 $ npm -v && yarn -v
 ```
 

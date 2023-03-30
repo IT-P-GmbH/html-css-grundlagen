@@ -1,7 +1,12 @@
 {
   "name": "vite-starterkit",
-  "private": true,
   "version": "1.0.0",
+  "private": true,
+  "homepage": "https://github.com/IT-P-GmbH/html-css-grundlagen",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IT-P-GmbH/html-css-grundlagen.git"
+  },
   "type": "module",
   "browserslist": [
     "defaults"
